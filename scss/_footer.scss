@@ -1,0 +1,19 @@
+footer {
+	text-align: center;
+	background: $dominate_color; 
+	padding: $sec_padding_top - 4 0;
+	color: $default_color_alt ;
+
+	ul {
+		width: 305px;
+		margin: 0 auto;
+	}
+	li {
+		float: left;
+		margin-right: $default_margin;
+
+		&:last-child {
+			margin-right: 0px;
+		}
+	}
+}
